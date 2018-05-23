@@ -1,0 +1,74 @@
+<html>
+<head>
+  <h1>두번째 과제</h1>
+  <h2>안녕하십니까<br>사회학과<br>이상규입니다.</h2>
+</head>
+<body>
+  <style>
+  a {
+    color:red;
+    text-decoration: none;
+  }
+  h1 {
+    font-size:45px;
+    border:5px solid red;
+    padding:20px;
+    margin:20px;
+    width:250px;
+  }
+  h2 {
+    border-bottom:1px solid gray;
+    margin:0;
+  }
+  #active {
+    color:red
+  }
+  .saw {
+    color:gray;
+  }
+  ol{
+    border-right:1px solid gray;
+    width:100px;
+    margin:0;
+    padding:20px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  @media(max-width:800px){
+    #grid{
+      display: block;
+    }
+    ol{
+      border-right:none;
+    }
+    h2 {
+      border-bottom:none;
+    }
+  }
+  </style>
+    <div id="grid">
+    <ol>
+      <li>간단 프로필</li>
+      <li>수업을 듣는 포부</li>
+    </ol>
+    <div>
+      생년월일 : 1994년 8월 28일생<br>
+      학력 : 한림대학교 <strong>재학중</strong><br>
+      주전공 : 사회학과<br>
+      복수전공 : 디지털인문예술 전공<br>
+      주소 : 강원도 춘천시 후평1동 한림오피스텔<br>
+      연락처 : 010-7763-ㅁㅁㅁㅁ<br>
+      신장 / 체중 : 185cm / 82kg<br>
+      병역 : 대한민국 육군 하사 전역<br>
+      페이스북 주소 : <a href="https://www.facebook.com/sangkyu.lee.18?ref=bookmarks" class = "saw" > 상규네 페이스북</a><br>
+      인스타그램 주소 : <a href="https://www.instagram.com/sangkyu__/?hl=ko" class = "saw" id="active"> 상규네 인스타</a><br>
+      <br>
+      <br>
+      <h3>포부</h3>
+      열심히 하겠습니다!!!!!!!!!!!!!
+    </div>
+  </div>
+  </body>
+</html>
